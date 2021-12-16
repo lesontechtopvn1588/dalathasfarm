@@ -21,4 +21,6 @@ arr_1 = [5, 6, 7];
 arr_2 = [3, 6, 10];
 ob.compare_array_case_1(arr_1, arr_2)
 
+
+
 		
