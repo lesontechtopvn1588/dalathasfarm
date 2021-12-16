@@ -12,13 +12,11 @@ class Test:
 				point_arr_1 += 1
 			elif arr_1[i] < arr_2[i]:
 				point_arr_2 += 1
-		print("A nhận được ",point_arr_1, " điểm. B nhận được ",point_arr_2, " điểm")
-		print(point_arr_1, point_arr_2)
-
+		return [point_arr_1, point_arr_2]
 				
 ob = Test;
 arr_1 = [5, 6, 7];
 arr_2 = [3, 6, 10];
-ob.compare_array_case_1(arr_1, arr_2)
-
-		
+points = ob.compare_array_case_1(arr_1, arr_2)
+print("A nhận được",points[0],"điểm. B nhận được",points[1],"điểm")
+print(points)
